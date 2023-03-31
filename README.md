@@ -15,10 +15,11 @@ Inorder to achive this you need to have follow the instruction.
 - [SMS-Gateway](https://drive.google.com/file/d/17odd60zAtkAZiUMvfrqK3rlyHMwHxvGw/view?usp=sharing)
 - [Gateway-Manager](https://drive.google.com/file/d/1BSwb2TTGYjdpxhfP_52bU4GN8WupqEXb/view?usp=sharing)
 5. Create user on the SMS Gateway
-6. Modify the setting on `sms/views.py`
+6. Modify settings in `sms/views.py`
 ```
 username = 'YOUR_USERNAME'
 password = 'YOUR_PASSWORD'
 to = 'RECIEVER_NUMBER'
 message = 'This is a test message'
 ```
+> You can reach me `@mesayem`

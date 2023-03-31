@@ -3,10 +3,10 @@ from django.shortcuts import render
 import requests as req
 import json
 
-username = 'mesaye'
-password = 'mesaye'
-to = '0942443926'
-message = 'This is a test message from TeleHakim project @mesayem'
+username = 'YOUR_USERNAME'
+password = 'YOUR_PASSWORD'
+to = 'RECIEVER_NUMBER'
+message = 'This is a test message'
 
 def index(request):
     url = f"http://192.168.0.91:8080/SendSMS?username={username}&password={password}&phone={to}&message={message}"
